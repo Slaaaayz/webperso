@@ -16,9 +16,11 @@
             <img src="/web perso/145207398.png">
         </div>
         <div class="ID">
-            <h1>Enter ID</h1>
-            <input type="text" name="ID" placeholder="78JGgfd_glkgfk">
-            <a href="#">Valider</a>
+            <h1>[Enter ID]</h1>
+            <form action="verify.php" method="POST">
+                <input type="text" name="admin_id" id="admin_id" placeholder="78JGgfd_glkgfk" required>
+                <input type="submit" value="Valider">
+            </form>
         </div>
     </div>
     
