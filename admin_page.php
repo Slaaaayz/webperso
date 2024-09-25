@@ -1,6 +1,6 @@
 <?php
 if (!isset($_COOKIE['admin_access'])) {
-    header("Location: login.php");
+    header("Location: index.php");
     exit();
 }
 ?>
