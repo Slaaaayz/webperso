@@ -13,13 +13,13 @@
             <a href="#">Portfolio</a>
             <a href="#">Projets</a>
             <a href="#">Clips</a>
-            <img src="/web perso/145207398.png">
+            <img src="./image/145207398.png">
         </div>
         <div class="ID">
+        <form action="verify.php" method="POST">
             <h1>[Enter ID]</h1>
-            <form action="verify.php" method="POST">
-                <input type="text" name="admin_id" id="admin_id" placeholder="78JGgfd_glkgfk" required>
-                <input type="submit" value="Valider">
+                <input class="admin" type="text" name="admin_id" id="admin_id" placeholder="78JGgfd_glkgfk" required>
+                <input class="valider" type="submit" value="Valider">
             </form>
         </div>
     </div>

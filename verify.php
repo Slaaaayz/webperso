@@ -7,6 +7,5 @@ if ($entered_id === $admin_id) {
     header("Location: admin_page.php");
     exit();
 } else {
-    echo "ID Admin incorrect. Veuillez réessayer.";
-}
+    header("Location: index.php");}
 ?>
