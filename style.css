@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Radio Canada', sans-serif;
+    background-image: url('/web\ perso/wallpaper.png');
+    background-size: cover;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    
+}
+
+.header img {
+    width: 100px;
+    border-radius: 80%;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.header  a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    bottom: -5px; 
+    left: 0;
+    transition: width 0.3s ease; /
+}
+
+.header a:hover::after {
+    width: 100%;
+}
+
+.ID {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    gap: 20px;
+
+}
+
+.ID h1 {
+    color: rgb(131, 42, 209);
+    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.ID input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.ID a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    background-color: rgb(110, 36, 173);
+    border-radius: 15px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.ID a:hover {
+    background-color: rgb(49, 16, 78);
+}
