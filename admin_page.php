@@ -1,4 +1,8 @@
 <?php
+if (!isset($_COOKIE['admin_access'])) {
+    header("Location: login.php");
+    exit();
+}
 ?>
 
 <!DOCTYPE html>
