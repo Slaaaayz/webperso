@@ -95,3 +95,28 @@ body {
 .ID .valider:hover {
     background-color: rgb(49, 16, 78);
 }
+
+.select-game {
+    display:flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    width: fit-content;
+    justify-content: center;
+    gap: 150px;
+}
+
+.profile-game {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    gap: 20px;
+}
+
+.profile-game img {
+    border-radius: 80%;
+    width: 90px;
+    height: 90px;
+}

@@ -1,5 +1,5 @@
 <?php
-if (!isset($_COOKIE['admin_access'])) {
+if (isset($_COOKIE['admin_access']) !== "Frm38FALKVH#AAW") {
     header("Location: index.php");
     exit();
 }
